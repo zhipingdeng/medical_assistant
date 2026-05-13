@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Data
+*.db
+*.sqlite
+faiss_*/
+
+# Logs
+*.log
+logs/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build
+frontend/dist/
+frontend/.vite/
+
+# Docker
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Milvus
+milvus_data/
+
+# Neo4j
+neo4j_data/
+neo4j_logs/
+
+# Docker data volumes
+data/
+
+# Large data files
+medical.json
+*.json.gz
+
+# Screenshots
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Backup files
+*_old/
