@@ -40,6 +40,6 @@ status: ## Show service status
 	@echo "=== Docker Services ==="
 	docker-compose ps
 	@echo "\n=== Backend ==="
-	curl -s http://localhost:8787/api/health | python -m json.tool || echo "Backend not running"
+	curl -s http://localhost:8000/api/health | python -m json.tool || echo "Backend not running"
 	@echo "\n=== Frontend ==="
 	curl -s http://localhost:5173 > /dev/null && echo "Frontend is running" || echo "Frontend not running"
